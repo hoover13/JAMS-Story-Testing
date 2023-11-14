@@ -17,6 +17,10 @@ class ChapterUnlocker: ObservableObject {
     @Published var isChapter4Disabled = true
     @Published var isChapter5Disabled = true
     
+    
+    
+    
+    
 //    var isUnlocked: Bool
 //
 //    init(isUnlocked: Bool) {

@@ -8,67 +8,9 @@
 import SwiftUI
 
  
-struct Chapter1View: View {
-    @EnvironmentObject var chapterUnlocker: ChapterUnlocker
-    
-    @State private var number = 0
-    var body: some View {
-        VStack {
-            Text("This is Chapter 1")
-                .font(.largeTitle)
-            Image(systemName: "person")
-                .font(.system(size: 200))
-            
-            Text("If you want to unlock Chapter 2.. tap the button till the number becomes 10")
-                .font(.largeTitle)
-             
-            Text("\(number)")
-                .font(.system(size: 200))
-                .bold()
-             
-            Button("Tap") {
-                number += 1
-                if number == 10 {
-                    chapterUnlocker.isChapter2Disabled = false
-                }
-            }
-        }
-        .padding(20)
-    }
-}
 
-struct Chapter2View: View {
-    @EnvironmentObject var chapterUnlocker: ChapterUnlocker
-    var body: some View {
-        VStack {
-            ScrollView {
-                Text("""
-* Newlywed princess attends post-marital ball on prince’s arm.
-* Three jealous women(Stepmother, Slender Stepdaughter, Stout Stepdaughter) approach Cindy and speaks ill of her marriage to the prince, as well as her lack of worthiness.
-* She retorts in defense of her honor, as well as calling the women jealous upstart peasants who aren’t worthy to breathe the same air as she.
-* The three churlish women come up with a ploy to swap her precious glass slippers with clear, polycarbonate plastic(PCP) slippers they acquired from the FGM CobbleShop down the lane.
-* Newlywed princess attends post-marital ball on prince’s arm.
-* Three jealous women(Stepmother, Slender Stepdaughter, Stout Stepdaughter) approach Cindy and speaks ill of her marriage to the prince, as well as her lack of worthiness.
-* She retorts in defense of her honor, as well as calling the women jealous upstart peasants who aren’t worthy to breathe the same air as she.
-* The three churlish women come up with a ploy to swap her precious glass slippers with clear, polycarbonate plastic(PCP) slippers they acquired from the FGM CobbleShop down the lane.
-* Newlywed princess attends post-marital ball on prince’s arm.
-* Three jealous women(Stepmother, Slender Stepdaughter, Stout Stepdaughter) approach Cindy and speaks ill of her marriage to the prince, as well as her lack of worthiness.
-* She retorts in defense of her honor, as well as calling the women jealous upstart peasants who aren’t worthy to breathe the same air as she.
-* The three churlish women come up with a ploy to swap her precious glass slippers with clear, polycarbonate plastic(PCP) slippers they acquired from the FGM CobbleShop down the lane.
-* Newlywed princess attends post-marital ball on prince’s arm.
-* Three jealous women(Stepmother, Slender Stepdaughter, Stout Stepdaughter) approach Cindy and speaks ill of her marriage to the prince, as well as her lack of worthiness.
-* She retorts in defense of her honor, as well as calling the women jealous upstart peasants who aren’t worthy to breathe the same air as she.
-* The three churlish women come up with a ploy to swap her precious glass slippers with clear, polycarbonate plastic(PCP) slippers they acquired from the FGM CobbleShop down the lane.
-""")
-                
-                Button("Unlock Chapter 3") {
-                    chapterUnlocker.isChapter3Disabled = false
-                }
-            }
-        }
-        .padding(20)
-    }
-}
+
+ 
 
 struct Chapter3View: View {
     @EnvironmentObject var chapterUnlocker: ChapterUnlocker
@@ -117,13 +59,13 @@ struct Chapter5View: View {
     var body: some View {
         Text("This is Chapter 5")
     }
-}
+} 
 
 struct TestingView: View {
     @EnvironmentObject var chapterUnlocker: ChapterUnlocker
     @State private var navigateToNextChapter = false
     
-    var body: some View {
+    var body: some View { 
         NavigationView {
             VStack(spacing: 100) {
                 NavigationLink(destination: {
@@ -134,10 +76,11 @@ struct TestingView: View {
                    
                 NavigationLink(destination: {
                     Chapter2View()
+                        .navigationBarHidden(true)
                 }, label: {
                     Text("Chapter 2")
                 })
-                .disabled(chapterUnlocker.isChapter2Disabled)
+//                .disabled(chapterUnlocker.isChapter2Disabled)
                 
                 NavigationLink(destination: {
                     Chapter3View(navigateToNextChapter: $navigateToNextChapter)
@@ -160,6 +103,25 @@ struct TestingView: View {
                 })
                 .disabled(true)
             }
+        }
+    }
+}
+
+struct ChapterButtonView: View {
+    @EnvironmentObject var chapterUnlocker: ChapterUnlocker
+    var number: Int
+
+    var body: some View {
+        Button(action: {
+            // Handle button tap
+        }) {
+            Text("Chapter \(number)")
+                .padding()
+                .foregroundColor(.blue)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.blue, lineWidth: 2)
+                )
         }
     }
 }

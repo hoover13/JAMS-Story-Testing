@@ -12,7 +12,7 @@ struct Jams_story_testingApp: App {
 //    @StateObject private var chapterUnlocker = ChapterUnlocker()
     var body: some Scene {
         WindowGroup {
-            TestingView()
+            SplashScreenView()
                 .environmentObject(ChapterUnlocker())
         }
     }
