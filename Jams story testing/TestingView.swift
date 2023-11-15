@@ -55,11 +55,7 @@ struct Chapter4View: View {
     }
 }
 
-struct Chapter5View: View {
-    var body: some View {
-        Text("This is Chapter 5")
-    }
-} 
+
 
 struct TestingView: View {
     @EnvironmentObject var chapterUnlocker: ChapterUnlocker
