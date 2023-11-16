@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Chapter1View10: View {
+    @EnvironmentObject var chapterUnlocker: ChapterUnlocker
     var body: some View {
         NavigationStack {
             ZStack {
@@ -51,14 +52,18 @@ struct Chapter1View10: View {
                         .padding()
                         Spacer()
 
-                        NavigationLink(destination: Chapter2View(), label: {
+                        NavigationLink(destination: TestingView(), label: {
                             Text("Next")
-                                .frame(width: 100, height: 50)
-                                .background(Color.red)
-                                .foregroundColor(.white)
-                                .cornerRadius(25.0)
-                                .navigationBarBackButtonHidden(true)
+                               
                         })
+                        .frame(width: 100, height: 50)
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(25.0)
+                        .navigationBarBackButtonHidden(true)
+                        .onTapGesture {
+                            chapterUnlocker.isChapter2Disabled = false
+                        }
                         .padding(.horizontal)
                         Spacer()
                         
@@ -79,4 +84,5 @@ struct Chapter1View10: View {
 
 #Preview {
     Chapter1View10()
+        .environmentObject(ChapterUnlocker())
 }

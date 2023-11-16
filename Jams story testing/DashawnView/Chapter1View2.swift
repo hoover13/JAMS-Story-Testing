@@ -30,7 +30,7 @@ struct Chapter1View2: View {
                         Section {
                             HStack {
                                 Spacer()
-                                NavigationLink(destination: Chapter1View(), label: {
+                                NavigationLink(destination:  Chapter1View(), label: {
                                     Text("Back")
                                         .frame(width: 100, height: 50)
                                         .background(Color.red)
