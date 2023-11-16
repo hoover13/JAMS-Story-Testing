@@ -40,7 +40,7 @@ struct Chapter1View4: View {
                                 .padding()
                                 Spacer()
                                 
-                                NavigationLink(destination: SplashScreenView(), label: {
+                                NavigationLink(destination: TestingView(), label: {
                                     Text("Chapter Select")
                                         .frame(width: 100, height: 50)
                                         .background(Color.red)
