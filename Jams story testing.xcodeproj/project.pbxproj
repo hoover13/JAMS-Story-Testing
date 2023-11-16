@@ -17,13 +17,25 @@
 		16BEDD2B2B030B65009FC6AA /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEDD2A2B030B65009FC6AA /* Chapter2View.swift */; };
 		16BEDD2D2B0317AA009FC6AA /* Chapter2GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEDD2C2B0317AA009FC6AA /* Chapter2GameView.swift */; };
 		16BEDD2F2B0319B0009FC6AA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BEDD2E2B0319B0009FC6AA /* Question.swift */; };
-		16FDA7FB2B028231000450A6 /* Chapter1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FDA7FA2B028231000450A6 /* Chapter1View.swift */; };
 		240BB5F42B0408DB00BFAC67 /* Chapter 5 View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240BB5F32B0408DB00BFAC67 /* Chapter 5 View.swift */; };
 		247744962B04B86800FD7F72 /* SheetViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247744952B04B86800FD7F72 /* SheetViewOne.swift */; };
 		247744982B04BB3C00FD7F72 /* SheetViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247744972B04BB3C00FD7F72 /* SheetViewTwo.swift */; };
 		2477449B2B0559F400FD7F72 /* SheetViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477449A2B0559F400FD7F72 /* SheetViewThree.swift */; };
 		2477449D2B05624700FD7F72 /* SheetViewFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477449C2B05624700FD7F72 /* SheetViewFour.swift */; };
 		2477449F2B05626A00FD7F72 /* SheetViewFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477449E2B05626A00FD7F72 /* SheetViewFive.swift */; };
+		5472C5702B06ABC600E06A70 /* Chapter1View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C5632B06ABC500E06A70 /* Chapter1View5.swift */; };
+		5472C5712B06ABC600E06A70 /* Chapter1View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C5642B06ABC500E06A70 /* Chapter1View4.swift */; };
+		5472C5722B06ABC600E06A70 /* Chapter1View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C5652B06ABC500E06A70 /* Chapter1View2.swift */; };
+		5472C5732B06ABC600E06A70 /* Chapter1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C5662B06ABC500E06A70 /* Chapter1View.swift */; };
+		5472C5742B06ABC600E06A70 /* Chapter1AltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C5672B06ABC500E06A70 /* Chapter1AltView.swift */; };
+		5472C5752B06ABC600E06A70 /* Chapter1AltView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C5682B06ABC600E06A70 /* Chapter1AltView2.swift */; };
+		5472C5762B06ABC600E06A70 /* Chapter1View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C5692B06ABC600E06A70 /* Chapter1View3.swift */; };
+		5472C5772B06ABC600E06A70 /* Chapter1AltView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C56A2B06ABC600E06A70 /* Chapter1AltView3.swift */; };
+		5472C5782B06ABC600E06A70 /* Chapter1View10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C56B2B06ABC600E06A70 /* Chapter1View10.swift */; };
+		5472C5792B06ABC600E06A70 /* Chapter1View8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C56C2B06ABC600E06A70 /* Chapter1View8.swift */; };
+		5472C57A2B06ABC600E06A70 /* Chapter1View6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C56D2B06ABC600E06A70 /* Chapter1View6.swift */; };
+		5472C57B2B06ABC600E06A70 /* Chapter1View7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C56E2B06ABC600E06A70 /* Chapter1View7.swift */; };
+		5472C57C2B06ABC600E06A70 /* Chapter1View9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472C56F2B06ABC600E06A70 /* Chapter1View9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +50,25 @@
 		16BEDD2A2B030B65009FC6AA /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		16BEDD2C2B0317AA009FC6AA /* Chapter2GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2GameView.swift; sourceTree = "<group>"; };
 		16BEDD2E2B0319B0009FC6AA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		16FDA7FA2B028231000450A6 /* Chapter1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1View.swift; sourceTree = "<group>"; };
 		240BB5F32B0408DB00BFAC67 /* Chapter 5 View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 5 View.swift"; sourceTree = "<group>"; };
 		247744952B04B86800FD7F72 /* SheetViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewOne.swift; sourceTree = "<group>"; };
 		247744972B04BB3C00FD7F72 /* SheetViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewTwo.swift; sourceTree = "<group>"; };
 		2477449A2B0559F400FD7F72 /* SheetViewThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewThree.swift; sourceTree = "<group>"; };
 		2477449C2B05624700FD7F72 /* SheetViewFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewFour.swift; sourceTree = "<group>"; };
 		2477449E2B05626A00FD7F72 /* SheetViewFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewFive.swift; sourceTree = "<group>"; };
+		5472C5632B06ABC500E06A70 /* Chapter1View5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View5.swift; sourceTree = "<group>"; };
+		5472C5642B06ABC500E06A70 /* Chapter1View4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View4.swift; sourceTree = "<group>"; };
+		5472C5652B06ABC500E06A70 /* Chapter1View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View2.swift; sourceTree = "<group>"; };
+		5472C5662B06ABC500E06A70 /* Chapter1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chapter1View.swift; path = "../../../SwiftUIStoryTemplate/SwiftUIStoryTemplate/Dashawn's Chapter/Chapter1View.swift"; sourceTree = "<group>"; };
+		5472C5672B06ABC500E06A70 /* Chapter1AltView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1AltView.swift; sourceTree = "<group>"; };
+		5472C5682B06ABC600E06A70 /* Chapter1AltView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1AltView2.swift; sourceTree = "<group>"; };
+		5472C5692B06ABC600E06A70 /* Chapter1View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View3.swift; sourceTree = "<group>"; };
+		5472C56A2B06ABC600E06A70 /* Chapter1AltView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1AltView3.swift; sourceTree = "<group>"; };
+		5472C56B2B06ABC600E06A70 /* Chapter1View10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View10.swift; sourceTree = "<group>"; };
+		5472C56C2B06ABC600E06A70 /* Chapter1View8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View8.swift; sourceTree = "<group>"; };
+		5472C56D2B06ABC600E06A70 /* Chapter1View6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View6.swift; sourceTree = "<group>"; };
+		5472C56E2B06ABC600E06A70 /* Chapter1View7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View7.swift; sourceTree = "<group>"; };
+		5472C56F2B06ABC600E06A70 /* Chapter1View9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1View9.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +136,19 @@
 		16FDA7F92B02821C000450A6 /* DashawnView */ = {
 			isa = PBXGroup;
 			children = (
-				16FDA7FA2B028231000450A6 /* Chapter1View.swift */,
+				5472C5662B06ABC500E06A70 /* Chapter1View.swift */,
+				5472C5652B06ABC500E06A70 /* Chapter1View2.swift */,
+				5472C5692B06ABC600E06A70 /* Chapter1View3.swift */,
+				5472C5672B06ABC500E06A70 /* Chapter1AltView.swift */,
+				5472C5642B06ABC500E06A70 /* Chapter1View4.swift */,
+				5472C5632B06ABC500E06A70 /* Chapter1View5.swift */,
+				5472C56D2B06ABC600E06A70 /* Chapter1View6.swift */,
+				5472C5682B06ABC600E06A70 /* Chapter1AltView2.swift */,
+				5472C56E2B06ABC600E06A70 /* Chapter1View7.swift */,
+				5472C56A2B06ABC600E06A70 /* Chapter1AltView3.swift */,
+				5472C56C2B06ABC600E06A70 /* Chapter1View8.swift */,
+				5472C56F2B06ABC600E06A70 /* Chapter1View9.swift */,
+				5472C56B2B06ABC600E06A70 /* Chapter1View10.swift */,
 			);
 			path = DashawnView;
 			sourceTree = "<group>";
@@ -200,20 +236,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5472C5752B06ABC600E06A70 /* Chapter1AltView2.swift in Sources */,
+				5472C57B2B06ABC600E06A70 /* Chapter1View7.swift in Sources */,
+				5472C57C2B06ABC600E06A70 /* Chapter1View9.swift in Sources */,
 				2477449D2B05624700FD7F72 /* SheetViewFour.swift in Sources */,
 				240BB5F42B0408DB00BFAC67 /* Chapter 5 View.swift in Sources */,
+				5472C57A2B06ABC600E06A70 /* Chapter1View6.swift in Sources */,
 				16BEDD2B2B030B65009FC6AA /* Chapter2View.swift in Sources */,
 				247744962B04B86800FD7F72 /* SheetViewOne.swift in Sources */,
 				2477449B2B0559F400FD7F72 /* SheetViewThree.swift in Sources */,
+				5472C5722B06ABC600E06A70 /* Chapter1View2.swift in Sources */,
 				16550F632B005B7100B8FAC0 /* ContentView.swift in Sources */,
+				5472C5702B06ABC600E06A70 /* Chapter1View5.swift in Sources */,
 				16550F712B006A9800B8FAC0 /* TestingView.swift in Sources */,
 				16BEDD2F2B0319B0009FC6AA /* Question.swift in Sources */,
+				5472C5772B06ABC600E06A70 /* Chapter1AltView3.swift in Sources */,
 				16550F612B005B7100B8FAC0 /* Jams_story_testingApp.swift in Sources */,
-				16FDA7FB2B028231000450A6 /* Chapter1View.swift in Sources */,
+				5472C5742B06ABC600E06A70 /* Chapter1AltView.swift in Sources */,
 				16550F6F2B005ECA00B8FAC0 /* ChapterUnlocker.swift in Sources */,
+				5472C5712B06ABC600E06A70 /* Chapter1View4.swift in Sources */,
 				16BEDD282B030A26009FC6AA /* SplashScreenView.swift in Sources */,
 				16BEDD2D2B0317AA009FC6AA /* Chapter2GameView.swift in Sources */,
+				5472C5782B06ABC600E06A70 /* Chapter1View10.swift in Sources */,
+				5472C5732B06ABC600E06A70 /* Chapter1View.swift in Sources */,
 				247744982B04BB3C00FD7F72 /* SheetViewTwo.swift in Sources */,
+				5472C5792B06ABC600E06A70 /* Chapter1View8.swift in Sources */,
+				5472C5762B06ABC600E06A70 /* Chapter1View3.swift in Sources */,
 				2477449F2B05626A00FD7F72 /* SheetViewFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
